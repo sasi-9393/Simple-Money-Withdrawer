@@ -1,0 +1,88 @@
+/* Write your CSS here */
+
+.bg {
+  background-color: white;
+  min-height: 100vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #150b3e;
+  padding: 22px;
+  width: 60%;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-head {
+  font-family: 'roboto';
+}
+.card-color-con {
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  background-color: #c7d2fe;
+  border-radius: 25px;
+  border-width: 0px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-main-head {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #c7d2fe;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.amo-con {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.para {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.rupees {
+  color: #d4d2db;
+}
+.cash {
+  color: white;
+  font-size: 35px;
+  margin: 0px;
+}
+
+.withdraw {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.in-rupees {
+  color: #585076;
+}

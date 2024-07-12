@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.btn {
+  background-color: #7c3aed;
+  width: 150px;
+  height: 42px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  margin: 8px;
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    width: 110px;
+    height: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    width: 220px;
+  }
+}
